@@ -1,0 +1,1 @@
+gcc heros_formula.c -o hero -lm
