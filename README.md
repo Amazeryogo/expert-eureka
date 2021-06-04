@@ -1,2 +1,2 @@
 # expert-eureka
-Justing writing programs to do thw work for me, I am too lazy
+Justing writing programs to do the work for me, I am too lazy
