@@ -1,19 +1,17 @@
 #include<stdio.h>
-#include<math.h>
+#include"heros_formula.h"
 
 // the formula is sqrt(s(s-a)(s-b)(s-c)) where s = a+b+c/2
 int main (int argc, char *argv[])
 {
-  double a, b, c;
+  double a, b, c, p;
   printf ("a>>");
   scanf ("%lf", &a);
   printf ("b>>");
   scanf ("%lf", &b);
   printf ("c>>");
   scanf ("%lf", &c);
-  double s = (a + b + c) / 2;
-  double p = s * (s - a) * (s - b) * (s - c);
-  double q = sqrt (p);
-  printf ("%.2lf\n", q);
+  p = hero(a,b,c);
+  printf ("%.2lf\n", p);
   return 0;
 }
