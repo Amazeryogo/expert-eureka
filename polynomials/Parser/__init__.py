@@ -19,12 +19,3 @@ class Parser:
             out = out + [(int(g),mono[1],int(mono[2]))]
 
         return out
-        
-   
-
-
-
-#p = Parser()
-
-#while True:
-   # p.parse(input(">>"))
