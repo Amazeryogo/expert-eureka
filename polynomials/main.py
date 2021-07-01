@@ -16,10 +16,3 @@ with open(filename,'r') as d:
     d.close()
 
 print(polys[0] + polys[1])
-
-
-
-
-
-
-
