@@ -40,11 +40,11 @@ int VolumeofCylinder(float r, float h){
 }
 
 int CSAofCone(float r, float l){
-   return (1/2) * l * 2*pi*r;
+   return pi * r * l
 }
 
 int TSAofCone(float r, float l){
-   return pi*r*l + pi*r*r;
+   return pi*r*(l+r)
 }
 
 int VolumeofCone(float r, float h){
