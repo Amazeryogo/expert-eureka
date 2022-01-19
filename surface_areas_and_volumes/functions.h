@@ -1,4 +1,4 @@
-#define pi 3.14
+#define pi 3.1415926539791
 /* keywords 
  * l = length (l in cones is slant height)
  * b = breath
